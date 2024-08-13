@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Noto Sans Regular";
+    src: url("fonts/NotoSans-Regular.woff2") format("woff2"),
+         url("fonts/NotoSans-Regular.woff") format("woff");
+}
+
+html, body, p {
+    margin:  0;
+    padding: 0;
+}
+
+/* outer-container covers the entire page. */
+.outer-container {
+    display:  flex;
+    position: absolute;
+    top:      0;
+    bottom:   0;
+    left:     0;
+    right:    0;
+
+    background-image: url("wallpapers/night_sky_blue.jpg");
+    background-size:  cover;
+}
+
+/* inner-container is the wrapper for all elements
+ to be centered horizontally and vertically. */
+.inner-container {
+    display:         flex;
+    flex-direction:  column;
+    width:           100%;
+    margin:          auto;
+    justify-content: center;
+}
+
+.timer {
+    display:         flex;
+    text-align:      center;
+    justify-content: center;
+    font-family:     "Noto Sans Regular", sans-serif;
+    color:           white;
+}
+
+.displayContainer {
+    margin: 0 0.25rem;
+}
+
+.divider {
+    height:      100%;
+    margin:      0 2rem;
+    border-left: 2px solid white;
+}
+
+.value {
+    font-weight:   bold;
+    font-size:     8rem;
+    margin-top:    -1.5rem;
+    margin-bottom: -1.5rem;
+    color:         lightgoldenrodyellow;
+}
+
+#daysValue {
+    color: lightskyblue;
+}
+
+#secsValue {
+    color: crimson;
+}
+
+.unit {
+    margin-top:  auto;
+    font-family: "Noto Sans Regular", sans-serif;
+    font-size:   1.4rem;
+    color:       lightgoldenrodyellow;
+}
+
+#daysUnit {
+    color: lightskyblue;
+}
+
+#secsUnit {
+    color: crimson;
+}
+
+.until {
+    margin:      1rem 0;
+    text-align:  center;
+    font-family: "Noto Sans Regular", sans-serif;
+    font-size:   2rem;
+    color:       white;
+}
+
+.quote {
+    margin:      2rem 0;
+    text-align:  center;
+    font-family: serif;
+    font-style:  italic;
+    font-size:   3rem;
+    color:       white;
+}
