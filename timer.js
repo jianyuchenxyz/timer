@@ -8,7 +8,7 @@ const wallpapers = [
 ];
 
 const quotes = [
-    "Tempus fugit — time flees."
+    "Tempus omnia — time takes all things."
 ];
 
 //==================
